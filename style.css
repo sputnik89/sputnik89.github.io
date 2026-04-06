@@ -7,7 +7,7 @@ body {
 }
 
 table.main {
-    width: 780px;
+    width: 840px;
     margin: 0 auto;
     background-color: #ffffff;
     border: 2px solid #333333;
@@ -25,7 +25,7 @@ td.sidebar a {
     color: #ffffff;
     text-decoration: none;
     padding: 6px 4px;
-    font-size: 14px;
+    font-size: 16px;
     border-bottom: 1px solid #4477aa;
 }
 
@@ -40,14 +40,14 @@ td.content {
 
 h1 {
     color: #003366;
-    font-size: 24px;
+    font-size: 26px;
     border-bottom: 2px solid #336699;
     padding-bottom: 5px;
 }
 
 h2 {
     color: #336699;
-    font-size: 18px;
+    font-size: 20px;
     border-bottom: 1px dashed #999999;
     padding-bottom: 4px;
 }
@@ -79,7 +79,7 @@ hr {
 }
 
 .header .update {
-    font-size: 12px;
+    font-size: 14px;
     color: #cccccc;
 }
 
@@ -87,19 +87,19 @@ hr {
     background-color: #336699;
     color: #ffffff;
     padding: 4px 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .counter {
     text-align: center;
-    font-size: 11px;
+    font-size: 13px;
     color: #666666;
     padding: 10px;
     border-top: 1px solid #cccccc;
 }
 
 .construction {
-    font-size: 12px;
+    font-size: 14px;
     color: #cc0000;
     text-align: center;
     padding: 5px;
@@ -114,11 +114,28 @@ hr {
 }
 
 .blog-date {
-    font-size: 12px;
+    font-size: 14px;
     color: #666666;
     font-style: italic;
 }
 
 ul {
     list-style-type: square;
+}
+
+.news-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.news-list li {
+    padding: 4px 0;
+    border-bottom: 1px dotted #cccccc;
+}
+
+.news-date {
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    color: #336699;
+    margin-right: 6px;
 }
